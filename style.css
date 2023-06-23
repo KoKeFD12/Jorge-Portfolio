@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
     margin: 0px;
+    background-color:  #EEEEEE;
 }
 header {
-    background-color: grey;
     font-size: 20px;
 }
 #navbar {
     margin: 0px;
-    padding: 20px;
+    padding: 15px;
 }
 li{
     display: inline;
@@ -18,8 +20,8 @@ li{
     margin-left: 20px;
 }
 #myself {
-    background-color: greenyellow;
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
     padding: 20px;
     font-size: 80px;
 }
@@ -27,19 +29,34 @@ li{
     width: 50%;
     margin-top: 20px;
 }
+#color-transition{
+    width: 100%;
+    margin-bottom: 0px;
+}
 #education {
-    background-color: aquamarine;
+    background-color: #123144;
     text-align: center;
     padding: 20px;
     font-size: 50px;
 }
+#edu-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.edu-box {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
 #experience {
-    background-color: chocolate;
+    background-color: #123144;
     text-align: center;
     padding: 20px;
     font-size: 50px;
 }
 footer {
     background-color: gainsboro;
-    padding: 10px;
+    padding: 5px;
+    font-size: 10px;
 }
